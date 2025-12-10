@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title> 
+    <link rel="stylesheet" href="../css/pt1.css">
+</head>
+<body>
+    <div class="bentuk1">
+        <input type="text" id="display" disabled>
+        <div class="button">
+            <button class="btn" onclick="appendvallue('7')">7</button>   
+            <button class="btn" onclick="appendvallue('8')">8</button>   
+            <button class="btn" onclick="appendvallue('9')">9</button>  
+            <button class="btn operator" onclick="appendvallue('/')">/</button> 
+            <button class="btn" onclick="appendvallue('4')">4</button>   
+            <button class="btn" onclick="appendvallue('5')">5</button>   
+            <button class="btn" onclick="appendvallue('6')">6</button>   
+           <button class="btn operator" onclick="appendvallue('*')">X</button>
+           <button class="btn" onclick="appendvallue('1')">1</button> 
+           <button class="btn" onclick="appendvallue('2')">2</button> 
+           <button class="btn" onclick="appendvallue('3')">3</button> 
+           <button class="btn operator" onclick="appendvallue('-')">-</button>
+           <button class="btn" onclick="appendvallue('0')">0</button>
+           <button class="btn" onclick="appendvallue('.')">.</button>
+           <button class="btn operator" onclick="calcute()">=</button>
+           <button class="btn operator" onclick="appendvallue('+')">+</button>
+           <button class="btn clear" onclick="cleardisplay()">C</button>
+
+           
+        </div>
+    </div>
+    <script src="../java/pt1.js"></script>
+</body>
+</html>
